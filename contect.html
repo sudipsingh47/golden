@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="costemstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello, world!</title>
+  </head>
+  <body class="content" >
+    
+<!--  priloader start -->
+      <div id="preloader">
+          <div class="south-load">
+
+             
+
+          </div>
+      </div>
+      <!-- priloader ends -->
+
+<div class="top-head ">
+   
+
+      <div class="topnav" id="myTopnav">
+          <a style="padding-left: 20px" href="#leads"> <span style="font-size:20px;cursor:pointer" onmouseover="openNav()">&#9776; </span> </a>
+          <a href="index.html" class="active">Home</a>
+          <a href="#leads">Leads</a>
+          <a href="#contect">Contact</a>
+          <a href="#Account">Account</a>
+          <a href="#Deals">Deals</a>
+          <a href="#Activitis">Activitis</a>
+          <a href="#Product">Product</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div> 
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      <div class="topnav-right">
+          
+          <a>  <form class="sinput">
+                    <input type="text"  margin="0px"name="search" placeholder="Search..">
+                  </form></a>
+          <a href="#leads"> <i class="far fa-bell"></i></a>
+          <a href="#home"><i class="fas fa-cog"></i></a>
+          <a href="#leads"   ><i class="far fa-user-circle" style="font-size:20px;cursor:pointer" onclick="openprofile()"  ></i></a>
+        
+
+
+         </div>
+
+
+        </div>
+
+<!--  sidenav   off-convas  left side view-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          
+      
+          <!--  sidenav   off-convas  right side view-->
+         
+          <div id="profile-nav" class="profile-slide">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeprofile()">&times;</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
+            
+
+          <!-- ##### Header Area ends ##### -->
+
+<div class=" cHeader cHpadding ">
+          <div class="pL16">
+         <table class=" " width="100%">
+             <tbody>
+                 <tr>
+                     <td>
+                            <div class="sort-button">
+                                    <button class="text-btn hoverB oH ">Dropdown 
+                                      <i class="fa fa-caret-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                      <a href="#">Link 1</a>
+                                      <a href="#">Link 2</a>
+                                      <a href="#">Link 3</a>
+                                    </div>
+                                  </div> 
+
+
+                     </td>
+                     
+
+                     
+                     <td class="alignRight cnav">
+                            <a href="#">  <i class="fas fa-sort"></i></a>
+                            <a href="#">  <i class="fas fa-list-ul"></i></a>
+                            <a href="#"><i class="fab fa-gripfire"></i>  </a>
+                            <a href="#"> 
+                                    <button class="text-btn hoverB  " onclick="document.getElementById('id01').style.display='block'">Add Contect 
+                                      <i class="fa fa-caret-down"></i>
+                                    </button></a>
+
+                     </td>
+                     
+                 </tr>
+
+
+             </tbody>
+
+
+
+         </table>
+
+        </div>
+         </div>
+          </div>
+
+
+          <div>
+
+               
+
+               
+                
+                <div id="id01" class="modal">
+                  
+                  <div class="modal-content animate finput " action="/action_page.php">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="img/logo.png" alt="Avatar" class="avatar">
+                    </div>
+<form>
+    <div class="container-fluid">
+        <h2>Contect information</h2>
+        <div class="row">
+          <div class="col-sm-6" >
+           
+              <ul class="" style="list-style-type: none;">
+                
+                  <li class=""> <label for="name">First Name:</label>
+                    <input type="text" class="uinput" id="fname" placeholder="Enter first name" name="fname"></li>
+                    <li class=""> <label for="name">Last Name:</label>
+                      <input type="email" class="uinput" id="lname" placeholder="Enter Last name" name="lname"></li>
+                      <li class=""> <label for="email">Primery Email:</label>
+                        <input type="email" class="uinput" id="email" placeholder="email" name="email"></li>
+                        <li class=""> <label for="number">Mo. number:</label>
+                          <input type="number" class="uinput" id="mnumber" placeholder="Mobile Numbr" name="mnumber"></li>
+
+                </ul>
+          </div>
+          <div class="col-sm-6" >
+              <ul class=""style="list-style-type: none;">
+                  <li class=""> <label for="name">Vendor name:</label>
+                    <input type="text" class="uinput" id="fname" placeholder="......." name="fname"></li>
+                    <li class=""> <label for="number">Home phone:</label>
+                     <input type="number" class="uinput" id="mnumber" placeholder="........." name="mnumber"></li>
+                     <li class=""> <label for="name">Vendor name:</label>
+                      <input type="text" class="uinput" id="fname" placeholder="......." name="fname"></li>
+                 <li class=""> <label for="number">assist phone </label>
+                     <input type="number" class="uinput" id="mnumber" placeholder="........." name="mnumber"></li>
+                </ul>
+          </div>
+
+          
+        </div>
+        <div class="row">
+            <div class="col-sm-6" >
+
+        <h3>Address Information</h3>
+
+           <ul style="list-style-type: none;">
+             
+                <li class=""> <label for="name">District</label>
+                  <input type="text" class="uinput" id="fname" placeholder="......." name="fname"></li>
+             
+                  <li class=""> <label for="name">City</label>
+                    <input type="text" class="uinput" id="fname" placeholder="......." name="fname"></li>
+                    <li class=""> <label for="name">VDC/Muns.</label>
+                      <input type="text" class="uinput" id="fname" placeholder="......." name="fname"></li>
+                      <li class=""> <label for="name">Wada no.</label>
+                        <input type="number" class="uinput" id="fname" placeholder="......." name="fname"></li>
+                 
+  
+               
+
+          </ul>
+
+</div>
+<div class="col-sm-6" >
+    <ul style="list-style-type: none;">
+      <li>
+    <label for="subject">Description Information</label>
+  </li>
+  <li>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+    </li>
+
+    
+
+
+  </div>
+
+      </div>
+                
+                    </form>
+                
+                    <div class="container" style="background-color:#f1f1f1">
+                      <button   type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </div>
+                </div>
+                
+                
+               
+                
+          </div>
+
+
+
+
+          
+
+    <!-- Optional JavaScript -->
+    <script src="header.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
